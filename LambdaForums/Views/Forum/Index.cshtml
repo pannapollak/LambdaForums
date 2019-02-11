@@ -8,7 +8,10 @@
         {
         <tr>
             <td>
-                @forum.Name
+                <a contentsp-controller="Forum" asp-action="topic" asp-route-id="@forum.Id">
+                    @forum.Name
+                </a>
+                
             </td>
             <td>
                 @forum.Description
