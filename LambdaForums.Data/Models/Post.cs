@@ -9,7 +9,7 @@ namespace LambdaForums.Data.Models
         public string Title { get; set; }
         public DateTime Created { get; set; }
 
-        public ApplicationUser User { get; set; }
+        public virtual ApplicationUser User { get; set; }
         public virtual Forum Forum { get; set; }
 
         public virtual IEnumerable<Postreply> Replies { get; set; }

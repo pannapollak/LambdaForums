@@ -9,7 +9,7 @@ namespace LambdaForums.Models.Post
     public class PostListingModel
     {
         public int Id { get; set; }
-        public int Title { get; set; }
+        public string Title { get; set; }
         public string Author { get; set; }
         public int AuthorRating { get; set; }
         public string AuthorId { get; set; }
